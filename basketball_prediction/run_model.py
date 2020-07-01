@@ -24,12 +24,11 @@ def main():
     #['ppg', 'ppg_prev1', 'ppg_prev2', 'opp_allowed_rating', 'home_not_away']
     players = ['butleji01']
     inputs = stats.get_player_current_stats(players)
-    pdb.set_trace()
 
     inputs = pd.DataFrame([[15.5, 12.3, 14.0, 0.961121157323689, 0]], columns=train_data.features)
     inputs_transformed = preprocessor.transform_features(inputs)
     prediction = model.predict(inputs_transformed)
-    pdb.set_trace()
+    print("Predicted scoring: {}".format(prediction))
 
 if __name__ == "__main__":
     main()
