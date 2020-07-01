@@ -5,7 +5,7 @@ This project applies a number of well-known supervised learning algorithms to tw
 - K Nearest Neighbors
 - Support Vector Machines
 
-For each model, optimal parameters are chosen by conducting an exhaustive "grid search" and using the parameter values that yield the highest cross-validated test score.
+For each model, optimal parameters are chosen by conducting an exhaustive "grid search" and using the parameter values that yield the highest cross-validated test score. The models used in this project were implemented using the scikit-learn package.
 
 To run the code for a particular model (on both data sets):
 Decision Tree: python decision_tree.py

@@ -1,1 +1,3 @@
-# samples
+This repository contains code for the following projects (more details can be found in the README in each subdirectory):
+- basketball_prediction - A personal project that contains datasets and models for predicting NBA player scoring on a game-to-game basis. 
+- supervised - A project completed for a Machine Learning course that evaluates the performance of various ML models on two prediction problems.
